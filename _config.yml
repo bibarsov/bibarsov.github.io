@@ -5,7 +5,7 @@ logo: /static/img/avatar.png
 github: https://github.com/bibarsov
 about: Freelance developer
 
-baseurl: ""
+baseurl: "https://bibarsov.github.io/"
 url: "https://bibarsov.github.io/"
 
 disqus_shortname: bibarsov-github-io
