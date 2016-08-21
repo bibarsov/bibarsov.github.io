@@ -42,7 +42,7 @@ layout: default
             {% endif %}
             <div class="least-content">{{ post.date | date_to_string }}</div>
             <h4 class="list-group-item-heading"><a href="
-            {% if site.baseurl and site.baseurl.size > 0 %}
+            {% if site.baseurl and site.baseurl.size != 0 %}
             {{ site.baseurl }}/
             {% endif %}{{ post.url }}"
             >{{ post.title }}</a></h4>
