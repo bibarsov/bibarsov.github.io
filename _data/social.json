@@ -1,18 +1,14 @@
 [
   {
-    "icon": "fa-facebook",
-    "link": ""
+    "icon": "fa-google-plus",
+    "link": "https://plus.google.com/114170405886232842444"
   },
   {
-    "icon": "fa-twitter",
-    "link": ""
+    "icon": "fa-skype",
+    "link": "skype:l95349746xdj"
   },
   {
-    "icon": "fa-linkedin",
-    "link": ""
-  },
-  {
-    "icon": "fa-stack-exchange",
-    "link": ""
+    "icon": "fa-stack-overflow",
+    "link": "http://stackexchange.com/users/5924341/%D0%A2%D0%B8%D0%BC%D1%83%D1%80-%D0%91%D0%B8%D0%B1%D0%B0%D1%80%D1%81%D0%BE%D0%B2"
   }
 ]
