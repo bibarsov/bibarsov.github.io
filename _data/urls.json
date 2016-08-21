@@ -17,14 +17,15 @@
   },
   {
     "text": "Resume",
-    "url": "#",
+    "url": "/resume",
     "icon": "fa-graduation-cap",
     "layout": "post"
   },
   {
     "text": "Github",
-    "url": "",
-    "icon": "fa-github"
+    "url": "https://github.com/bibarsov",
+    "icon": "fa-github",
+    "target": _blank
   },
   {
     "text": "XML Feed",

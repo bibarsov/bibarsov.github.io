@@ -4,9 +4,9 @@ author: Bibarsov Timur
 logo: /static/img/avatar.png
 github: https://github.com/bibarsov
 about: Freelance developer
+url: https://bibarsov.github.io/
+baseurl: ""
 
-baseurl: "https://bibarsov.github.io/"
-url: "https://bibarsov.github.io/"
 
 disqus_shortname: bibarsov-github-io
 google_analytics: UA-82902217-1
