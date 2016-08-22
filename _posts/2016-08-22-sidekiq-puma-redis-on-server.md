@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: 'Настройка Rails, Sidekiq и Puma на Linux/Heroku'
 date: 2016-08-22T04:50:39.000Z
