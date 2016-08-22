@@ -29,7 +29,16 @@ _Оригинальная статья_ - [The Complete Guide: Rails, Sidekiq an
 
 	rails generate job Some
 
-Что создаст файл app/jobs/some_job.rb с названием класса SomeJob.
+Что создаст файл app/jobs/some_job.rb с таким содержимым
+
+    class SomeJob < ApplicationJob
+      queue_as :default
+
+      def perform(*args)
+        # Do something later
+      end
+    end
+
 Теперь мы можем воспользоваться этим в наших контроллерах с помощью
 	
     SomeJob.perform_now(args)
