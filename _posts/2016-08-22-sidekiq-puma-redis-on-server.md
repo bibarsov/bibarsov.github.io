@@ -17,5 +17,28 @@ _Оригинальная статья_ - [The Complete Guide: Rails, Sidekiq an
 
 	gem 'sidekiq'
     
+Запустить в консоли с rails приложением установку нового гема 
+
+	bundle install
+	
+Указать сервер очередей в config/application.rb
+
+	config.active_job.queue_adapter = :sidekiq
+    
+Создать задачу, например
+
+	rails generate job Some
+
+Что создаст файл app/jobs/some_job.rb с названием класса SomeJob.
+Теперь мы можем воспользоваться этим в наших контроллерах с помощью
+	
+    SomeJob.perform_now(args)
+
+Либо
+
+	SomeJob.perform_later(args)
+	
+В первом случае SomeJob выполнится сразу, не отправляясь в очередь. Во втором функция отработает в фоновом потоке, добавившись в очередь. Есть также и отложенные задачи, об этом можно прочитать в [официальном руководстве гема](https://github.com/mperham/sidekiq/wiki/Scheduled-Jobs).
+
 На высоком уровне Sidekiq следует разделять на две основные части: **Sidekiq Client** и **Sidekiq Server**, который общаются c нереляционной базой данных [**Redis**](https://ru.wikipedia.org/wiki/Redis). 
 
