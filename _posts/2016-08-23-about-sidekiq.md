@@ -1,7 +1,8 @@
 ---
 published: true
 layout: post
-date: {}
+title: 'Легкий обзор Sidekiq'
+date: 2016-08-23T05:29:39.000Z
 categories: articles
 ---
 ## Основы Sidekiq
