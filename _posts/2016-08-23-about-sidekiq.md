@@ -32,10 +32,12 @@ categories: articles
         # Do something later
       end
     end
-    
+
 Для работы Sidekiq нам потребуется установленный и запущенный redis-server. К примеру, на Ubuntu 14.04 она легко устанавливается с помощью команды `sudo apt-get install redis-server`. Запустим sidekiq в dev окружении:
 
+
 ![Sidekiq приветствие]({{site.baseurl}}//assets/articles/images/sidekiq-start-message.png)
+
 
 Теперь мы можем воспользоваться этим в наших контроллерах с помощью:
 	
