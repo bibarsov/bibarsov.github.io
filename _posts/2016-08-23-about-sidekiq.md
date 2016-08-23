@@ -25,27 +25,29 @@ categories: articles
 
 Что создаст файл app/jobs/some_job.rb с таким содержимым:
 
-    class SomeJob < ApplicationJob
-      queue_as :default
+	class SomeJob < ApplicationJob
+	  queue_as :default
 
-      def perform(*args)
-        # Do something later
-      end
-    end
+	  def perform(*args)
+	    # Do something later
+	  end
+	end
 
 Для работы Sidekiq нам потребуется установленный и запущенный redis-server. К примеру, на Ubuntu 14.04 она легко устанавливается с помощью команды `sudo apt-get install redis-server`. Запустим sidekiq в dev окружении:
 
-
 ![Sidekiq приветствие]({{site.baseurl}}//assets/articles/images/sidekiq-start-message.png)
-
 
 Теперь мы можем воспользоваться этим в наших контроллерах с помощью:
 	
     SomeJob.perform_now(args)
 
-  либо
+либо
 
 	SomeJob.perform_later(args)
 	
 Очевидно, в первом случае задача выполняется сразу, во втором - задача отправляется в очередь. 
-Но здесь есть свои тонкости. Если сознательно не наследовать функционал фреймворка **ActiveJob** (`ApplicationJob` в нашем случае), то воспользоваться этими функциями не удастся. В то же время, при добавлении  `include Sidekiq::Worker` станут доступны функции `SomeJob.new.perform(args)` (в этом случае придется создавать объект класса) и `SomeJob.perform_async` соответственно. Есть также и отложенные задачи, об этом и о многом другом можно прочитать в [официальном руководстве гема](https://github.com/mperham/sidekiq/wiki/Scheduled-Jobs).
+Но здесь есть свои тонкости. 
+Если сознательно не наследовать функционал фреймворка **ActiveJob** (`ApplicationJob` в нашем случае), то воспользоваться этими функциями не удастся. 
+В то же время, при добавлении  `include Sidekiq::Worker` станут доступны функции `SomeJob.new.perform(args)` (в этом случае придется создавать объект класса) и `SomeJob.perform_async` соответственно. 
+
+Есть также и отложенные задачи, об этом и о многом другом можно прочитать в [официальном руководстве гема](https://github.com/mperham/sidekiq/wiki/Scheduled-Jobs).
