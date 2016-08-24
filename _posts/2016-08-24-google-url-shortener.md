@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Google URL Shortener. Небольшой туториал
-date: 2016-08-24T20:02:39.000Z
+date: {}
 categories: articles
 ---
 ## Google URL Shortener и Ruby
@@ -48,4 +48,4 @@ categories: articles
 
     json_response = http.request(request)
     response = JSON.parse json_response.body
-    SHORT_URL = response['id']
+    short_url = response['id']
