@@ -24,7 +24,8 @@ categories: articles
 В [официальной документации к API](https://developers.google.com/url-shortener/v1/getting_started) сказано, что для получения увеличенного лимита запросов в день требуется создать API ключ и передавать его в теле запроса. Стоит заметить, что передача ключа в запросе позволяет идентифицировать пользователя, создавшего короткую ссылку.  
 Для использования API в полной мере следует:  
 
-- Создать проект в [консоли управления проектами](https://console.developers.google.com){:target="_blank"}  - Найти URL Shortener API в библиотеке API
+- Создать проект в [консоли управления проектами](https://console.developers.google.com){:target="_blank"} 
+- Найти URL Shortener API в библиотеке API
 
 ![Google Library Pic](/assets/articles/images/google-library.png)
 
