@@ -13,7 +13,7 @@ categories: articles
 ### Хау-ту
 Воспользоваться API очень просто. Достаточно перейти [сюда](https://goo.gl/){:target="_blank"} и вставить свою ссылку.  
 Лично меня данный способ не устраивал, т.к. для меня формирование ссылок автоматически было приоритетной задачей.  
-Для получения короткого URL достаточно использовать следующую команду в cURL-cli:
+Для получения короткого URL достаточно использовать следующую команду в cURL-cli:  
 
 
     curl https://www.googleapis.com/urlshortener/v1/url \  
@@ -23,7 +23,7 @@ categories: articles
 
 В [официальной документации к API](https://developers.google.com/url-shortener/v1/getting_started) сказано, что для получения увеличенного лимита запросов в день требуется создать API ключ и передавать его в теле запроса. Стоит заметить, что передача ключа в запросе позволяет идентифицировать пользователя, создавшего короткую ссылку.
 Для использования API в полной мере следует:  
-- Создать проект в [консоли управления проектами](https://console.developers.google.com){:target="_blank"}
+- Создать проект в [консоли управления проектами](https://console.developers.google.com){:target="_blank"}  
 - Найти URL Shortener API в библиотеке API
 
 ![Google Library Pic](/assets/articles/images/google-library.png)
@@ -47,5 +47,3 @@ categories: articles
     json_response = http.request(request)
     response = JSON.parse json_response.body
     SHORT_URL = response['id']
-
-
