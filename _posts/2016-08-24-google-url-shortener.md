@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Google URL Shortener. Небольшой туториал
-date: {}
+date: 2016-08-24T15:29:39.000Z
 categories: articles
 ---
 ## Google URL Shortener и Ruby
