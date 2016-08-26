@@ -2,8 +2,8 @@
 published: false
 layout: post
 title: 'Настройка Rails, Sidekiq и Puma на Linux/Heroku'
-date: 2016-08-22T04:50:39.000Z
-categories: articles
+date: 2016-08-22
+categories: ruby-on-rails
 ---
 # Настройка Rails, Sidekiq и Puma на Linux/Heroku
 _Оригинальная статья_ - [The Complete Guide: Rails, Sidekiq and Puma on Heroku/Linux Server](http://julianee.com/rails-sidekiq-and-heroku/)

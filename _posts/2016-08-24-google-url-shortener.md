@@ -2,8 +2,8 @@
 published: true
 layout: post
 title: Google URL Shortener. Небольшой туториал
-date: 2016-08-24T15:29:39.000Z
-categories: articles
+date: 2016-08-24
+categories: ruby-on-rails
 ---
 ## Google URL Shortener и Ruby
 
@@ -36,16 +36,17 @@ categories: articles
 Теперь мы можем использовать его для автоматической генерации коротких ссылок.  
 Для этого я написал небольшой скрипт на Ruby:
 
+{% highlight ruby %}
+require 'net/http'
+require 'json'
 
-    require 'net/http'
-    require 'json'
+url = "https://www.googleapis.com/urlshortener/v1/url?key=YOUR_API_KEY"
+http = Net::HTTP.new(uri.host, uri.port)
+http.use_ssl = true
+request = Net::HTTP::Post.new(uri.request_uri,  'Content-Type' => 'application/json')
+request.body = {longUrl: "http://www.example.com"}.to_json
 
-    url = "https://www.googleapis.com/urlshortener/v1/url?key=YOUR_API_KEY"
-    http = Net::HTTP.new(uri.host, uri.port)
-    http.use_ssl = true
-    request = Net::HTTP::Post.new(uri.request_uri,  'Content-Type' => 'application/json')
-    request.body = {longUrl: "http://www.example.com"}.to_json
-
-    json_response = http.request(request)
-    response = JSON.parse json_response.body
-    short_url = response['id']
+json_response = http.request(request)
+response = JSON.parse json_response.body
+short_url = response['id']
+{% endhighlight %}
