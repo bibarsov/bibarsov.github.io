@@ -1,9 +1,5 @@
 ---
-published: true
-layout: post
-title: Telegram Bot API: Enable Webhook for your bot
-date: 2016-08-29
-categories: ruby-on-rails
+published: false
 ---
 ## Telegram Bot API: Enable Webhook for your bot
 
