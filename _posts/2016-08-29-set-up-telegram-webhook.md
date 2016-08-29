@@ -43,6 +43,6 @@ And after that in response body you will see something like
 
 From now Telegram will send updates directly to your server.
 
-**Delete webhook**
-Of course, you may want to go back to /getupdates method.
+**Delete webhook**  
+Of course, you may want to go back to /getupdates method.  
 Just send request without the form (url, cert path) and your webhook will be deleted.
