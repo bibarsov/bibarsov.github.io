@@ -1,6 +1,7 @@
 title: Блог трудоленивого программиста
 description: Коды, переводы пиндосских статей и другие полезные тексты
 author: Bibarsov Timur
+future: true
 logo: /static/img/avatar.png
 github: https://github.com/bibarsov
 about: Freelance developer
