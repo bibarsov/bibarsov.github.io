@@ -15,6 +15,10 @@ Now add ip-adress you want to get access to:
 
 	host    all     all     X.X.X.X/32         md5
 
+N.B.: To allow connection from all ip addresses change the line to:
+
+	host    all     all     X.X.X.X/32         md5
+
 Be aware of [CIDR notation](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing) if you want to provide a range of ip adresses.
 
 After that you need to enable remote connections via postgresql.conf file:
