@@ -17,7 +17,7 @@ Now add ip-adress you want to get access to:
 
 N.B.: To allow connection from all ip addresses change the line to:
 
-	host    all     all     X.X.X.X/32         md5
+	host    all     all     all		md5
 
 Be aware of [CIDR notation](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing) if you want to provide a range of ip adresses.
 
