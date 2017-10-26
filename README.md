@@ -1,1 +1,1 @@
-This is my personal site based on https://github.com/ashutosh2k12/hcz-jekyll-blog
+### This is my personal blog based on https://github.com/ashutosh2k12/hcz-jekyll-blog.
