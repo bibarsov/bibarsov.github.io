@@ -9,4 +9,4 @@ You are welcome to comment any post and share your point of view.
 
 Contact me if you have any questions.
 E-mail: btr2194 at gmail.com.
-Telegram: @Bibarsov.
+Telegram: [@Bibarsov](https://t.me/bibarsov).
