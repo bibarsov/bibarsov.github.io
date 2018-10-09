@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 date: 2018-10-09T15:27:00.000Z
 categories: others
@@ -48,4 +48,3 @@ jdbc:h2:mem:test;DB_CLOSE_DELAY=-1
 
 
 Исходя из этого можно сделать следующий вывод: если создание entity вручную требует много времени, можно воспользоваться embedded database, отведя роль создания данных SQL запросам. А вы как думаете, камрады? Жду ответов в комментариях :)
-
