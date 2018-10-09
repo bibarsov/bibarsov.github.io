@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-date: 2018-10-09T15:27:00.000Z
+date: {}
 categories: others
 ---
 ## Проблема
@@ -44,7 +44,7 @@ jdbc:h2:mem:test;DB_CLOSE_DELAY=-1
 Вопрос висящий в воздухе - а как мы будем создавать SQL скрипт? Вручную? Зощим?
 Ответ: в современных SQL обозревателях зачастую есть готовые функции для генерации тех или иных записей в БД. Даже в Intellij IDEA есть такая.
 
-![IDEA SQL dump]({{site.baseurl}}/_posts/ChooseSQLInserts.png)
+![IDEA SQL dump]({{site.baseurl}}/assets/articles/images/ChooseSQLInserts.png)
 
 
 Исходя из этого можно сделать следующий вывод: если создание entity вручную требует много времени, можно воспользоваться embedded database, отведя роль создания данных SQL запросам. А вы как думаете, камрады? Жду ответов в комментариях :)
