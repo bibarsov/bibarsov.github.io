@@ -4,6 +4,9 @@ title: About
 permalink: /about/
 ---
 **Hello, there!** 
+
+![me and my cat]({{site.baseurl}}/assets/img/me.jpg)
+
 My name is Timur and that's my personal blog about programming and other IT-related stuff.
 You are welcome to comment any post and share your point of view.
 

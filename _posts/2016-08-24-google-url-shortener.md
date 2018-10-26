@@ -27,7 +27,7 @@ categories: ruby-on-rails
 - Создать проект в [консоли управления проектами](https://console.developers.google.com){:target="_blank"}
 - Найти URL Shortener API в библиотеке API
 
-![Google Library Pic](/assets/articles/images/google-library.png)
+![Google Library Pic](/assets/img/google-library.png)
 
 - Подключить URL Shortener API 
 - Создать новый API ключ
