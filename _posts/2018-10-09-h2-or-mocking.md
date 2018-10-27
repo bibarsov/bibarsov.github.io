@@ -2,7 +2,7 @@
 published: true
 layout: post
 date: 2018-10-09T15:27:00.000Z
-categories: others
+categories: testing
 ---
 ## Проблема
 
