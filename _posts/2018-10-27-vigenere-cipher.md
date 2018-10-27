@@ -25,7 +25,7 @@ J + B => 10 + 1 (for A it'll be 0) = 11, so it's K.
 
 Moreover, there is a Vigenere table, that can help us to encrypt and decrypt our cipher quickly:
 
-[Vigenere table]({{site.baseurl}}/assets/img/vigenere_table.png)
+![Vigenere table]({{site.baseurl}}/assets/img/vigenere_table.png)
 
 ### Implementation
 Finally, I wrote a program to implement encryption logic of Vigenere cipher:
