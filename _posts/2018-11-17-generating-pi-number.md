@@ -22,9 +22,9 @@ So if we randomly generate dots on circle and square then it's relation produce 
 ```
 area(c) / area (s) = Pi / 4
 ```
-And the question is how to find the Pi number using only preciding formula.
+And the question is how to find the Pi number using only preceding formula.
 
-I'm tried to provide a straightforward solution and it looks like the following:
+I've tried to provide a straightforward solution and it looks like the following:
 
 ```java
 
@@ -75,4 +75,4 @@ public class Main {
 
 ```
 
-Precision number there gives a number of iteration so we come closer to the true PI as we provide more iterations. To be honest I'm a little bit stuck with the scales of x and y. This code may seem ostensible, but at least it gets closest to the real PI number. I will appreciate your advices how we can adapt this code.
+Precision number there gives a number of iteration so we come closer to the true PI as we provide more iterations. To be honest I'm a little bit stuck with the scales of x and y. This code may seem ostensible, but at least it gets closest to the real PI number. I will appreciate your comments how we can adapt this code.
