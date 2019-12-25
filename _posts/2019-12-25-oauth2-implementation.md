@@ -86,5 +86,5 @@ CREATE TABLE IF NOT EXISTS oauth_access_tokens
 ```
 The scheme looks quite simple and gives some view. Though we didn't describe the algorithm and how to reissue new access token. 
 
-For more on this topic, please visit Oauth 2.0 Standard (by IETF)
-https://tools.ietf.org/html/rfc6749
+For more on this topic, please visit [Oauth 2.0 Standard](https://tools.ietf.org/html/rfc6749) (by IETF)
+
