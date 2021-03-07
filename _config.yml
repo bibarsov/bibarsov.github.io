@@ -14,8 +14,7 @@ share:
   fb_appid: 000000000000
 enableTags: true
 tagarray: []
-paginate: 20
-per_page: 20
+paginate: 10
 paginate_path: "/page:num/"
 markdown: kramdown
 gems: [jekyll-paginate, jekyll-gist]

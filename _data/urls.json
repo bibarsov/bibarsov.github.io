@@ -11,11 +11,6 @@
     "icon": "fa-comments"
   },
   {
-    "text": "Projects",
-    "url": "/projects",
-    "icon": "fa-desktop"
-  },
-  {
     "text": "Github",
     "url": "https://github.com/bibarsov",
     "icon": "fa-github",
