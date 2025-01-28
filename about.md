@@ -13,4 +13,4 @@ You are welcome to comment any post and share your point of view.
 
 Contact me if you have any questions.<br>
 E-mail: btr2194 at gmail.com.<br>
-Telegram: [@Bibarsov](https://t.me/bibarsov).
+Telegram: [@IAmBibarsov](https://t.me/iambibarsov).
